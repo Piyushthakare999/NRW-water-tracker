@@ -1,0 +1,21 @@
+.auth-wrapper {
+	width: 100%;
+	height: 100vh;
+	background: #eee;
+}
+
+.auth-wrapper .card-wrapper {
+	width: 40%;
+}
+
+.auth-wrapper .google-signin-button {
+	cursor: pointer;
+}
+
+.auth-wrapper header img {
+	width: 100px;
+}
+
+.auth-wrapper .auth-card-content {
+	flex-direction: column;
+}

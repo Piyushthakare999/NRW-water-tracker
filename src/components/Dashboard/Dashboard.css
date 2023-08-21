@@ -1,0 +1,46 @@
+.dashboard-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.detail--popup {
+  width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 0.5s;
+  z-index: 1000;
+  overflow-y: scroll;
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
+
+.show-details {
+  width: 100vw;
+  min-height: 100vh;
+  transform: translateX(0);
+  overflow-y: hidden;
+}
+
+.detail-card {
+  height: 100%;
+  width: 100%;
+}
+
+.details-background {
+  background: url("../../images/DetailBackground.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.7rem;
+}
